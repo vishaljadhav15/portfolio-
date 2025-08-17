@@ -5,13 +5,10 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const education = [
   {
-    job: "BBA in Computer Applications (BBA-CA)",
-    company: "Savitribai Phule Pune University",
-    date: "2021 - 2024",
-    responsibilities: [
-      "Graduated with a CGPA of 7.5.",
-      "Built academic projects including a portfolio and an e-commerce application.",
-    ],
+    job: "SSC - Maharashtra State Board",
+    company: "P. P. Chintamani Maharaj Madhyamik Vidyalaya, Parbhani",
+    date: "2018 - 2019",
+    responsibilities: ["Completed Secondary Education.", "Achieved 78.20%."],
   },
   {
     job: "HSC - Commerce",
@@ -23,10 +20,13 @@ const education = [
     ],
   },
   {
-    job: "SSC - Maharashtra State Board",
-    company: "P. P. Chintamani Maharaj Madhyamik Vidyalaya, Parbhani",
-    date: "2018 - 2019",
-    responsibilities: ["Completed Secondary Education.", "Achieved 78.20%."],
+    job: "BBA in Computer Applications (BBA-CA)",
+    company: "Savitribai Phule Pune University",
+    date: "2021 - 2024",
+    responsibilities: [
+      "Graduated with a CGPA of 7.5.",
+      "Built academic projects including a portfolio and an e-commerce application.",
+    ],
   },
 ];
 
