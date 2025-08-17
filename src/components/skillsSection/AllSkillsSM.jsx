@@ -1,4 +1,4 @@
-import { FaBootstrap, FaHtml5 } from "react-icons/fa";
+import { FaBootstrap, FaHtml5, FaNodeJs } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiMui, SiTypescript } from "react-icons/si";
@@ -11,39 +11,38 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   {
-      skill: "HTML",
-      icon: FaHtml5,
-    },
-    {
-      skill: "CSS",
-      icon: FaCss3Alt,
-    },
-    {
-      skill: "JavaScript",
-      icon: IoLogoJavascript,
-    },
-    {
-      skill: "Bootstrap",
-      icon: FaBootstrap,
-    },
-    {
-      skill: "Mui",
-      icon: SiMui ,
-    },
-    {
-      skill: "ReactJS",
-      icon: FaReact,
-    },
-  
-    {
-      skill: "NextJS",
-      icon: SiNextdotjs,
-    },
-    {
-      skill: "TailwindCSS",
-      icon: RiTailwindCssFill,
-    },
-    
+    skill: "HTML",
+    icon: FaHtml5,
+  },
+  {
+    skill: "CSS",
+    icon: FaCss3Alt,
+  },
+  {
+    skill: "JavaScript",
+    icon: IoLogoJavascript,
+  },
+  {
+    skill: "Bootstrap",
+    icon: FaBootstrap,
+  },
+  {
+    skill: "Mui",
+    icon: SiMui,
+  },
+  {
+    skill: "ReactJS",
+    icon: FaReact,
+  },
+
+  {
+    skill: "NodeJS",
+    icon: FaNodeJs,
+  },
+  {
+    skill: "TailwindCSS",
+    icon: RiTailwindCssFill,
+  },
 ];
 
 const AllSkillsSM = () => {
